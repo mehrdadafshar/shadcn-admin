@@ -148,7 +148,7 @@ export function Apps() {
           {filteredApps.map((app) => (
             <li
               key={app.name}
-              className='rounded-lg border p-4 hover:shadow-md'
+              className='rounded-lg border p-4 transition-colors hover:bg-secondary'
             >
               <div className='mb-8 flex items-center justify-between'>
                 <div
